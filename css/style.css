@@ -311,7 +311,7 @@ WORK
 .portfolio-figure figcaption a:hover { color: #f96015; }
 .portfolio-figure figcaption i { color: #b6b6b6; font-size: 60px; position: relative; top: -6px }
 .portfolio-figure { overflow: hidden; background-color: #000; }
-.portfolio-figure img { -webkit-transition: -webkit-transform 0.4s; -moz-transition: -moz-transform 0.4s; transition: transform 0.4s; max-width: 100%; }
+.portfolio-figure img { -webkit-transition: -webkit-transform 0.4s; -moz-transition: -moz-transform 0.4s; transition: transform 0.4s; max-width: 100%; height: 200px;}
 .no-touch .portfolio-figure:hover img,
 .portfolio-figure.cs-hover img { -webkit-transform: translateY(-60px); -moz-transform: translateY(-60px); -ms-transform: translateY(-60px); transform: translateY(-60px); opacity: 0.4; -webkit-transition: all 0.4s ease-in-out 0s; -moz-transition: all 0.4s ease-in-out 0s; transition: all 0.4s ease-in-out 0s; }
 .portfolio-figure figcaption { height: 110px; width: 100%; top: auto; bottom: 0; opacity: 0; -webkit-transform: translateY(100%); -moz-transform: translateY(100%); -ms-transform: translateY(100%); transform: translateY(100%); -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s; -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s; transition: transform 0.4s, opacity 0.1s 0.3s; }
@@ -352,6 +352,7 @@ WORK POPUP
 .popup-slide .category { display: inline-block; font-family: "Oswald", sans-serif; font-size: 30px; font-weight: 100; padding: 0 0 5px; text-transform: uppercase; width: 100%; color: #939393; line-height: 30px; }
 .popup-slide .work-details { display: inline-block; font-size: 14px; font-weight: 400; padding: 0 0 5px; text-transform: uppercase; width: 100%; }
 .popup-slide .client-speak { margin: 10px 0 0; }
+.popup-slide .client-speak a { color: rgb(255, 255, 255); }
 .popup-slide .client-speak span { display: block; font-size: 11px; font-weight: 600; margin: 10px 0 0; text-transform: uppercase; }
 
 /* Navigation */
