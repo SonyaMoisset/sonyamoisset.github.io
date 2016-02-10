@@ -650,8 +650,8 @@ DESIGN ELEMENTS
 .carousel-indicators li:last-child { margin-right: 0; }
 .carousel-indicators li:after { left: inherit; content: inherit; }
 .carousel-indicators .active { width: 17px; height: 17px; background-color: #fff; visibility: visible; }
-.carousel-caption { position: inherit; width: 46%; margin: 0 auto; }
-.carousel-caption p { font-size: 22px; font-weight: 300 }
+.carousel-caption { position: inherit; width: 100%; margin: 0 auto; }
+.carousel-caption p { font-size: 14px; font-weight: 500 }
 .carousel-caption span { font-size: 16px; text-transform: uppercase; margin-bottom: 65px; display: inline-block; }
 .carousel-inner iframe { display: block; height: 500px; margin-top: 19%; vertical-align: middle;  width: 100%;}
 
