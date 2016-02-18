@@ -332,13 +332,7 @@ $('.inner-link').smoothScroll({
     speed: 900,
     offset: -68
 });
-/* =================================
- Stellar
- ==================================== */
-$(window)
-        .stellar({
-            horizontalScrolling: false
-        });
+
 /* =================================
  IE10 On Windows 8 Fix
  =================================== */
