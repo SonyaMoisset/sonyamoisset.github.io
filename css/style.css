@@ -612,7 +612,6 @@ CONTACT
 FOOTER
 ========================================================================== */
 
-#footer { background: url(../images/footer-bg.jpg) no-repeat center top fixed; -webkit-background-size: cover; background-size: cover; }
 footer .color-overlay { padding: 46px 0 0; }
 .footer-social li { display: inline-block; margin: 0 1.8%; }
 .footer-social li i { font-size: 40px; }
@@ -638,8 +637,6 @@ DESIGN ELEMENTS
 .work-count-box .content-white { width: 75%; }
 
 /* Testimonial */
-.testimonial { background: url(../images/testimonial-img-01.jpg) no-repeat center top fixed; -webkit-background-size: cover; background-size: cover; }
-.testimonial-int { background: url(../images/testimonial-img-02.jpg) no-repeat center top fixed; -webkit-background-size: cover; background-size: cover; }
 .testimonial .container { overflow: hidden; line-height: 30px; }
 
 /* Carousel */
