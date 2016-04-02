@@ -62,6 +62,60 @@ $(document).ready(function () {
     }
     catch (err) {
     }
+    /* =================================
+     Form To Email
+     ==================================== */
+
+    $("#submit-button").click(function () {
+        var error = validationContactForm();
+        if (error) {
+            $.ajax({
+                type: "POST",
+                url: "contact.php",
+                data: $(".form-group form").serialize(),
+                success: function (result) {
+                    $('input[type=text]').each(function () {
+                        $(this).val('');
+                    })
+                    $("textarea.form-control").val('');
+                    $(".form-group form").delay(100).slideUp(1000, function () {
+                        $("#success").html(result);
+                        $('#success').delay(500).slideDown(500);
+                    });
+                }
+            });
+        }
+    });
+
+    function validationContactForm()
+    {
+        var error = true;
+        $('input[type=text]').each(function (index) {
+
+            if (index == 1)
+            {
+                if (!(/(.+)@(.+){2,}\.(.+){2,}/.test($(this).val())))
+                {
+                    $("form").find("input:eq(" + index + ")").css({"border": "1px solid red"});
+                    error = false;
+                } else {
+                    $("form").find("input:eq(" + index + ")").css({"border": "0px solid red"});
+                }
+            }
+            else if (index == 0)
+            {
+                if ($(this).val() == null || $(this).val() == "")
+                {
+                    $("form").find("input:eq(" + index + ")").css({"border": "1px solid red"});
+                    error = false;
+                }
+                else {
+                    $("form").find("input:eq(" + index + ")").css({"border": "0px solid red"});
+                }
+            }
+        });
+        return error;
+    }
 
     /* -------------- End -------------- */
 
@@ -217,6 +271,162 @@ $(document).ready(function () {
                 return false;
             });
 
+    /* =================================
+     easyPieChart
+     ==================================== */
+
+    $('.chart').easyPieChart({
+        easing: 'easeOutCirc',
+        barColor: '#FFF',
+        trackColor: '#fb905c',
+        scaleColor: false,
+        scaleLength: 5,
+        percent: 67,
+        lineCap: 'round',
+        lineWidth: 15, //12
+        size: 150, //110
+        animate: {
+            duration: 2000,
+            enabled: true
+        },
+        onStep: function (from, to, percent) {
+            $(this.el).find('.percent').text(Math.round(percent));
+        }
+    });
+
+    $('.chart2').easyPieChart({
+        easing: 'easeOutCirc',
+        barColor: '#FFF',
+        trackColor: '#e7c992',
+        scaleColor: false,
+        scaleLength: 5,
+        percent: 67,
+        lineCap: 'round',
+        lineWidth: 15, //12
+        size: 150, //110
+        animate: {
+            duration: 2000,
+            enabled: true
+        },
+        onStep: function (from, to, percent) {
+            $(this.el).find('.percent').text(Math.round(percent));
+        }
+    });
+
+    $('.chart3').easyPieChart({
+        easing: 'easeOutCirc',
+        barColor: '#FFF',
+        trackColor: '#a0004f',
+        scaleColor: false,
+        scaleLength: 5,
+        percent: 67,
+        lineCap: 'round',
+        lineWidth: 15, //12
+        size: 150, //110
+        animate: {
+            duration: 2000,
+            enabled: true
+        },
+        onStep: function (from, to, percent) {
+            $(this.el).find('.percent').text(Math.round(percent));
+        }
+    });
+
+    $('.chart4').easyPieChart({
+        easing: 'easeOutCirc',
+        barColor: '#b3b3b3',
+        trackColor: '#848484',
+        scaleColor: false,
+        scaleLength: 5,
+        percent: 67,
+        lineCap: 'round',
+        lineWidth: 15, //12
+        size: 150, //110
+        animate: {
+            duration: 2000,
+            enabled: true
+        },
+        onStep: function (from, to, percent) {
+            $(this.el).find('.percent').text(Math.round(percent));
+        }
+    });
+
+    $('.chart5').easyPieChart({
+        easing: 'easeOutCirc',
+        barColor: '#12569b',
+        trackColor: '#cdcdcd',
+        scaleColor: false,
+        scaleLength: 5,
+        percent: 67,
+        lineCap: 'round',
+        lineWidth: 15, //12
+        size: 150, //110
+        animate: {
+            duration: 2000,
+            enabled: true
+        },
+        onStep: function (from, to, percent) {
+            $(this.el).find('.percent').text(Math.round(percent));
+        }
+    });
+
+    $('.chart6').easyPieChart({
+        easing: 'easeOutCirc',
+        barColor: '#aaaaaa',
+        trackColor: '#e0e0e0',
+        scaleColor: false,
+        scaleLength: 5,
+        percent: 67,
+        lineCap: 'round',
+        lineWidth: 15, //12
+        size: 150, //110
+        animate: {
+            duration: 2000,
+            enabled: true
+        },
+        onStep: function (from, to, percent) {
+            $(this.el).find('.percent').text(Math.round(percent));
+        }
+    });
+
+    $('.chart7').easyPieChart({
+        easing: 'easeOutCirc',
+        barColor: '#ffffff',
+        trackColor: '#671718',
+        scaleColor: false,
+        scaleLength: 5,
+        percent: 67,
+        lineCap: 'round',
+        lineWidth: 15, //12
+        size: 150, //110
+        animate: {
+            duration: 2000,
+            enabled: true
+        },
+        onStep: function (from, to, percent) {
+            $(this.el).find('.percent').text(Math.round(percent));
+        }
+    });
+
+    $('.chart8').easyPieChart({
+        easing: 'easeOutCirc',
+        barColor: '#676767',
+        trackColor: '#4b4b4b',
+        scaleColor: false,
+        scaleLength: 5,
+        percent: 67,
+        lineCap: 'round',
+        lineWidth: 15, //12
+        size: 150, //110
+        animate: {
+            duration: 2000,
+            enabled: true
+        },
+        onStep: function (from, to, percent) {
+            $(this.el).find('.percent').text(Math.round(percent));
+        }
+    });
+
     // Windows Resize Events
     $(window)
             .resize(function () {
@@ -332,7 +542,13 @@ $('.inner-link').smoothScroll({
     speed: 900,
     offset: -68
 });
-
+/* =================================
+ Stellar
+ ==================================== */
+$(window)
+        .stellar({
+            horizontalScrolling: false
+        });
 /* =================================
  IE10 On Windows 8 Fix
  =================================== */
