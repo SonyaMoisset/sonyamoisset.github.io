@@ -1,0 +1,168 @@
+@media screen and (max-width:1200px) {
+    .teal .work-count-box .gray-text { width: 90%; }
+}
+@media screen and (max-width:1100px) {
+    .teal .padding-70 { padding: 40px; }
+}
+@media screen and (max-width:1024px) {
+    .teal header .intro-section { padding: 30px 0 30px 30px; top: 22%; }
+}
+@media screen and (max-width:992px) {
+    .teal .highlight { font-size: 60px; }
+    .teal header .intro-section { top: 32%; }
+}
+@media screen and (max-width:991px) {
+    .teal .title-text { height: auto !important; padding: 0; }
+    .teal .education .carousel-indicators { bottom: -25px; }
+    .teal .margin-bottom-100 { margin-bottom: 50px; }
+    .teal .margin-bottom-70 { margin-bottom: 18px !important; }
+    .teal .group.margin-top.show { margin-top: 4.1% !important; }
+    .teal .highlight { font-size: 40px; }
+    .teal header .intro-section { padding: 40px 0 40px 40px; left: 44%; }
+    .teal header .intro-section .intro { line-height: inherit; margin: 0 0 15px; }
+    .teal .treatments { padding: 13px 0 23px; }
+    .teal h2.title { font-size: inherit; margin: 90px 0 31px; padding-bottom: 0; }
+    .teal .about-details .col-sm-9 { padding-left: 0; width: 100%; }
+    .teal h6.light-gray { font-size: 18px; line-height: 26px; margin-top: 0; }
+    .teal .margin-top { margin-top: 20px !important; }
+    .teal .padding-70 { padding: 35px; }
+    .teal span.title { margin: 20px 0 10px; }
+    .teal .margin-bottom { margin-bottom: 15px !important; }
+    .teal .work-count-box span.title { min-height: 46px; }
+}
+@media screen and (max-width:768px) {
+    .teal .margin-bottom-100 { margin-bottom: 80px; }
+    .teal header .intro-section { padding: 30px 0 30px 30px; }
+    .teal header .intro-section .intro { margin-bottom: 10px; }
+    .teal .highlight { font-size: 34px; }
+    .teal .treatments { padding: 11px 0 21px; }
+    .teal .description { width: 80%; font-size: 14px; line-height: 22px; }
+    .teal .description h6 { font-size: 18px; line-height: 24px; }
+    .teal .margin-bottom { margin-bottom: 15px !important; }
+    .teal .padding-70 { padding: 25px; }
+    .teal .padding-30 { padding: 15px; }
+    .teal h6.light-gray { font-size: 16px; line-height: 22px; }
+    .teal .margin-top { margin-top: 15px !important; }
+    .teal .group.margin-top.show { margin-top: 30px !important; }
+    .teal .about-con ul li { line-height: 20px; padding: 11px 0; }
+    .teal h6.light-gray { font-size: 15px; line-height: 20px; }
+    .teal .progress-bar-sub:last-child .progress { margin-bottom: 0; }
+    .teal .progress-name { margin-bottom: 5px; }
+    .teal .count-box .title { margin: 10px 0 0; }
+    .teal .cs-style-3 figcaption a { bottom: 20px; right: 10px; }
+    .teal .portfolio-figure figcaption i { font-size: 26px; top: 3px; left: 0; }
+    .teal .contact { padding-top: 0; }
+    .teal .contact .title-text { height: inherit !important; }
+    .teal .margin-top-50 { margin-top: 36px !important; }
+    .teal .description h6 { margin-top: 0; }
+}
+@media screen and (max-width:767px) {
+    .teal .padding-bottom-90 { padding-bottom: 30px; }
+    .teal .padding-top-90 { padding-top: 30px; }
+    .teal .padding-70 { padding: 25px 15px; }
+    .teal header .intro-section { left: 38%; }
+    .teal .highlight { font-size: 30px; line-height: 42px; }
+    .teal .treatments { font-size: 14px; }
+    .teal .title-text { display: inherit; height: inherit !important; }
+    .teal h2.title { margin: 33px 0 28px; }
+    .teal .description { margin: 0 0 11px !important; width: 100%; }
+    .teal .description h6 { font-size: 16px; line-height: 22px; margin: 0; }
+    .teal .about-details { margin: 0; width: 100%; }
+    .teal .about-details .col-sm-9 { padding: 0; }
+    .teal .margin-top-70 { margin-top: 16px !important; }
+    .teal .about-details-img { min-height: 300px; padding: 0; position: inherit; width: 100%; }
+    .teal .isotope-filters { margin: 0px 0 5%; padding: 36px 0 0; }
+    .teal .work-count .margin-bottom-100 { margin-bottom: 20px !important; }
+    .teal .work-count-box { display: table; margin-bottom: 15px; padding: 0; width: 100%; }
+    .teal .work-count-box:last-child { margin-bottom: 0; }
+    .teal .work-count-box .gray-bg { display: inline-block; min-height: 0; float: none !important; width: 100%; }
+    .teal span.title { font-size: inherit; }
+    .teal span.title { margin: 15px 0 10px; min-height: 0 !important; }
+    .teal .skills-details-img { height: auto; min-height: 300px; padding: 0; position: inherit; width: 100%; }
+    .teal .progress-name { line-height: 18px; margin: 0 0 3px 0; text-align: left; }
+    .teal .progress { margin-bottom: 15px; }
+    .teal .progress-bar-sub:last-child .progress { margin-bottom: 0; }
+    .teal .testimonial img { width: 12%; }
+    .teal .dark-gray-line { margin: 18px auto 13px; }
+    .teal .education .carousel-indicators { bottom: -15px; }
+    .teal .count-box:nth-child(4) { margin-bottom: 0; }
+    .teal .education .about-details .description:last-child,
+    .teal .count .description:last-child,
+    .teal .blog .about-details .description:last-child { margin-bottom: 30px !important; padding: 0; }
+    .teal .education .namerol { padding: 15px; }
+    .teal .education .result { font-size: 18px; margin: 6px 0 0 !important; }
+    .teal .white-bg .small-button { margin-bottom: 12px; }
+    .teal .group.margin-top.show { margin-top: 15px !important; }
+    .teal .icon-list li { text-align: center; width: 100%; }
+    .teal .head { text-align: center; }
+    .teal #testimonial { padding-top: 30px; padding-bottom: 30px; }
+}
+@media screen and (max-width:600px) {
+    .teal header .intro-section { left: 35%; padding: 20px 0 20px 20px; }
+    .teal .highlight { font-size: 24px; line-height: 38px; }
+    .teal header .intro-section .intro { margin-bottom: 9px; }
+    .teal .highlight-button,
+    .teal .highlight-button:focus { display: table; font-size: 14px; padding: 6px 16px; width: auto; }
+    .teal .treatments { display: inline-block; padding: 12px 0 13px; width: 60.2%; line-height: 20px }
+    .teal .count-box .title { line-height: 26px; }
+    .teal .education .namerol { padding: 15px; }
+    .teal .education .year { font-size: 22px; }
+    .teal .margin-bottom-70 { margin-bottom: 40px !important; }
+    .teal .education .carousel-indicators { bottom: -28px; }
+    .teal .blog .description h6,
+    .teal .education .description h6,
+    .teal .contact .white-text.description h6 { margin-bottom: 0; }
+    .teal .buttons .small-button { margin-top: 15px; }
+}
+@media screen and (max-width:480px) {
+    .teal header .intro-section { padding: 15px 0 15px 15px; }
+    .teal .padding-70 { text-align: center; }
+    .teal .margin-top-50 { margin-top: 23px !important; }
+    .teal .about-con { margin-top: 0 !important; }
+    .teal .carousel-caption { padding-top: 0; }
+    .teal .team-details { width: 100%; }
+    .teal .education .namerol {padding: 15px;}
+    .teal .isotope-filters li a:hover,
+    .teal .isotope-filters li a:focus,
+    .teal .isotope-filters li a:active { border-bottom: 1px solid #ffffff; }
+    .teal .chart8 span { font-size: 30px; }
+    .teal .chart span,
+    .teal .chart2 span,
+    .teal .chart3 span,
+    .teal .chart5 span,
+    .teal .chart6 span,
+    .teal .chart7 span,
+    .teal .chart8 span { top: 36%; }
+    .teal .education .team-profile i { margin-bottom: 8px; }
+    .teal .education .year { font-size: 20px; }
+    .teal .education .university { font-size: 14px; }
+    .teal .education .team-profile { padding: 15px; }
+    .teal .education .team-details span.result { font-size: 16px; margin: 5px 0 5px !important; }
+    .teal .about-details .white-text.description:first-child { margin-bottom: 11px !important; }
+    .teal .head { text-align: center; }
+    .teal .icon-list { text-align: center; }
+    .teal .icon-list li.divider-transparent { width: 100%; }
+    .teal .form-group { margin-top: 12px;}
+    .teal h2.title { margin: 30px 0 13px; }
+    .teal .team-details { padding: 0 15px; }
+    .teal .education .about-details .col-sm-12 { padding: 0; }
+}
+
+@media screen and (max-width:320px) {
+    .teal .highlight { font-size: 22px; line-height: 32px; }
+    .teal .treatments { padding: 10px 0 10px; width: 58%; font-size: 12px; line-height: 18px; }
+    .teal .highlight-button,
+    .teal .highlight-button:focus { font-size: 13px; }
+    .teal .description h6,
+    .teal h6.light-gray { font-size: 14px; line-height: 21px; }
+    .teal span.title,
+    .teal .work-count-box .gray-text { line-height: 18px; }
+    .teal .chart8 span { font-size: 32px; top: 44%; }
+    .teal .count-box .title { margin: 2px 0 0; }
+    .teal .margin-bottom-70 { margin-bottom: 27px !important; }
+    .teal .contact .row:last-child { padding: 0 0 0;}
+}
+
+@media only screen and (device-width: 1024px) {
+    .teal header .intro-section { padding: 30px 0 30px 30px; top: 22%; }
+}
