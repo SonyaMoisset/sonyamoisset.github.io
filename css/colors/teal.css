@@ -12,7 +12,7 @@ HEADER
 .navbar-inverse .navbar-nav > li.current > a,
 .navbar-inverse .navbar-nav > li > a:hover { border-bottom: 2px solid #009688 }
 .highlight { background-color: transparent; font-size: 60px; line-height: 50px; font-weight: 100; padding: 0; color: #000; }
-header { background: url(../../img/home-background.jpeg) no-repeat center top; -webkit-background-size: cover; background-size: cover; height: 100%; -webkit-transition: ease-in-out; -moz-transition: ease-in-out; -o-transition: ease-in-out; transition: ease-in-out; }
+header { background: url(../../img/home-background.jpg) no-repeat center top; -webkit-background-size: cover; background-size: cover; height: 100%; -webkit-transition: ease-in-out; -moz-transition: ease-in-out; -o-transition: ease-in-out; transition: ease-in-out; }
 .teal header .intro-section { padding: 60px 0 60px 60px; z-index: 3; position: absolute; left: 49.2%; top: 32%; color: #000; width: 100%; background: url(../../img/name-background.jpeg) no-repeat top center; -webkit-background-size: cover; background-size: cover; }
 .highlight strong { display: block; }
 .color-overlay { background-color: rgba(0, 0, 0, 0.1); position: relative; height: 100%; width: 100% }
