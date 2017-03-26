@@ -7,8 +7,49 @@
 }
 
 .intro-description {
-    margin-top: 20rem !important;
-    margin-right: -1rem;
+    margin-top: 15rem !important;
+    margin-right: -100rem;
     background-image:url('https://images.unsplash.com/photo-1439337153520-7082a56a81f4');
     background-position: center;
+    padding: 1rem !important;
+}
+
+.index {
+  padding: 0 !important;
+}
+
+.index h1 {
+  font-size: 4rem !important;
+}
+
+.index h2 {
+  font-size: 2rem !important;
+}
+
+.index p {
+  font-size: 1.15rem !important;
+}
+
+@media only screen and (min-width: 600px) {
+  .intro-description {
+      margin-top: 20rem !important;
+      margin-right: -1rem;
+      background-image:url('https://images.unsplash.com/photo-1439337153520-7082a56a81f4');
+      background-position: center;
+      padding-top: 5rem !important;
+      padding-left: 2rem !important;
+      padding-bottom: 5rem !important;
+  }
+
+  .index h1 {
+    font-size: 5rem !important;
+  }
+
+.index h2 {
+    font-size: 5.25rem !important;
+  }
+
+.index p {
+    font-size: 3.5rem !important;
+  }
 }
