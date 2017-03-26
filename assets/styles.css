@@ -1,9 +1,6 @@
 #main {
+  height: 100%;
   background: url('https://images.unsplash.com/photo-1413896235942-39c2eb7cd584')no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;;
 }
 
 .intro-description {
@@ -19,7 +16,7 @@
 }
 
 .index h1 {
-  font-size: 4rem !important;
+  font-size: 3.5rem !important;
 }
 
 .index h2 {
@@ -31,6 +28,14 @@
 }
 
 @media only screen and (min-width: 600px) {
+  #main {
+    background: url('https://images.unsplash.com/photo-1413896235942-39c2eb7cd584')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+  }
+
   .intro-description {
       margin-top: 20rem !important;
       margin-right: -1rem;
