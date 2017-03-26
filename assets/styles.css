@@ -1,0 +1,14 @@
+#main {
+  background: url('https://images.unsplash.com/photo-1413896235942-39c2eb7cd584')no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
+}
+
+.intro-description {
+    margin-top: 20rem !important;
+    margin-right: -1rem;
+    background-image:url('https://images.unsplash.com/photo-1439337153520-7082a56a81f4');
+    background-position: center;
+}
